@@ -1,4 +1,4 @@
-package InnerClass;
+package core.InnerClass;
 
 public class LInner {
  private int i=10;

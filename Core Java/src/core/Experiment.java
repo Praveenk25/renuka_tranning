@@ -1,4 +1,4 @@
-
+package core;
 class Adder{
 	static int m(int a,int b)
 	{ return a+b;

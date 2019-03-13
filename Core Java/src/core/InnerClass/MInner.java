@@ -1,4 +1,4 @@
-package InnerClass;
+package core.InnerClass;
 
 public class MInner { 
 	private int data=10;
