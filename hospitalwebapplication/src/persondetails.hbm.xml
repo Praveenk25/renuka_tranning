@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">
+<hibernate-mapping>
+	<class name="com.itt.hospital.bean.PersonDetails"
+		table="loginusers">
+		<id name="id">
+			<generator class="increment"></generator>
+		</id>
+		<property column="fullname" name="fullName" type="string"></property>
+		<property column="email" name="email" type="string"></property>
+		<property column="USERNAME" name="userName" type="string"></property>
+		<property column="PASSWORD" name="password" type="string"></property>
+		<property column="ROLE" name="role" type="string"></property>
+	</class>
+</hibernate-mapping>  
