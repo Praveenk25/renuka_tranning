@@ -1,4 +1,4 @@
-
+package core;
 public class MainThread extends Thread{
 public void run()
 { System.out.println("Entering Into Deadlock");

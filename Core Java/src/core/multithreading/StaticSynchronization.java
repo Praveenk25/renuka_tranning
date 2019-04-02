@@ -1,4 +1,4 @@
-package multithreading;
+package core.multithreading;
 class Test{
 	synchronized static void printable(int n)
 	{ for(int i=1;i<6;i++)

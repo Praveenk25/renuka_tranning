@@ -1,4 +1,4 @@
-
+package core;
 public class Multi2 {
 	void Printtable(int n)
 	{  for(int i=0;i<5;i++)
